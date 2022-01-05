@@ -1,0 +1,21 @@
+.list-user-container {
+  width: 600px;
+  margin: 0 auto;
+  border: 1px solid #f4ff45;
+  .title {
+    text-transform: uppercase;
+    padding: 5px 0;
+    color: aquamarine;
+  }
+  .list-user-content {
+    margin: 0 auto;
+    width: 500px;
+    .child {
+      &:first-child {
+        border-top: 1px solid #9fff8e;
+      }
+      border-bottom: 1px solid #9fff8e;
+      margin-bottom: 10px;
+    }
+  }
+}
